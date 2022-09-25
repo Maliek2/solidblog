@@ -9,10 +9,21 @@ export default function Home() {
       <p>
         Visit{" "}
         <a href="https://blog.adball.online" target="_blank">
-          solidjs.com
+          Subscribe
         </a>{" "}
-        to learn how to build Solid apps.
+        to learn how to build AMP apps. 
+        
       </p>
+     <div id="page-content">
+      <div id="video-container">
+        <video id="video-element">
+          <source src="https://storage.googleapis.com/interactive-media-ads/media/android.mp4">
+          <source src="https://storage.googleapis.com/interactive-media-ads/media/android.webm">
+        </video>
+      </div>
+      <button id="play-button">Play</button>
+    </div>
+    <script src="ads.js"></script>
      <script>
   // Make sure that the properties exist on the window.
   window.googlefc = window.googlefc || {};
