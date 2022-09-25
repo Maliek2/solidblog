@@ -27,4 +27,5 @@ This uses the [Vercel Adapter](https://github.com/solidjs/solid-start/tree/main/
 
 ```bash
 npm run build
+npm install react-adsense
 ```
